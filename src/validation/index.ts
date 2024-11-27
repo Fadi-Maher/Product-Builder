@@ -29,9 +29,9 @@ export const productValidation = (product: {
   ) {
     errors.description = "description must have min 10 character ";
   }
-  if (!/^https?:\/\/.*\.(jpg|jpeg|png|gif|bmp|webp)$/.test(product.imgURL)) {
-    errors.imgURL = "imgURL must be a valid image URL (e.g., .jpg, .png, .gif)";
-  }
+  // if (!/^https?:\/\/.*\.(jpg|jpeg|png|gif|bmp|webp)$/.test(product.imgURL)) {
+  //   errors.imgURL = "imgURL must be a valid image URL (e.g., .jpg, .png, .gif)";
+  // }
   if (
     !product.price.trim() ||
     isNaN(Number(product.price)) ||

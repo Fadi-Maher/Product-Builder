@@ -146,6 +146,53 @@ export const ProductList: IProduct[] = [
     imgURL: "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
     colors: ["#4A4A4A", "#AA4A4A", "#BB7B7B"], // Added color codes
   },
+
+
+  {
+    id: uuid(),
+    title: "Wireless Bluetooth Headphones",
+    price: "45.99",
+    description:
+      "High-quality wireless headphones with noise-canceling technology, up to 20 hours of playtime.",
+    category: {
+      name: "electronics",
+      imgURL: "https://via.placeholder.com/150/0000FF/808080?text=Electronics",
+    },
+    imgURL: "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+     colors: ["#FFD700", "#C0C0C0", "#8B0000"],
+
+  },
+  {
+    id: uuid(),
+    title: "Smartwatch Series 5",
+    price: "249.99",
+    description:
+      "Stylish smartwatch with fitness tracking, heart rate monitoring, and customizable faces.",
+     category: {
+      name: "wearables",
+      imgURL: "https://via.placeholder.com/150/FF0000/FFFFFF?text=Wearables",
+    },
+     imgURL:
+      "https://images.pexels.com/photos/440320/pexels-photo-440320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+     colors: ["#FFD700", "#C0C0C0", "#8B0000"],
+
+   },
+
+  {
+    id: uuid(),
+    title: "4K Ultra HD Smart TV",
+    price: "799.00",
+    description:
+      "65-inch 4K Ultra HD Smart TV with HDR10+ and built-in streaming apps.",
+     category: {
+      name: "home appliances",
+      imgURL: "https://via.placeholder.com/150/FFFF00/000000?text=Appliances",
+    },
+     imgURL:
+      "https://img.freepik.com/free-psd/modern-tv-isolated_23-2151430326.jpg?t=st=1732697686~exp=1732701286~hmac=589be60d785645832b319884f725a224a4e445a98361c0ad6927808050259545&w=1380",
+    colors: ["#FFD700", "#C0C0C0", "#8B0000"],
+
+   },
 ];
 
 export const formInputsLists: IformInput[] = [
